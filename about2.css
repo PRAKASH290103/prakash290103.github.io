@@ -1,0 +1,56 @@
+      /* nav bar starting */
+nav{
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+     /* nav bar ending */
+   
+li{
+    list-style:none;
+    display: inline;
+    padding: 10px;
+    font-size:x-large;
+}
+h2
+{
+    font-size:x-large;
+}
+ /* .res
+{
+    background-image: url(../images/computer3.jpg);
+}  */
+.about1
+{
+    border: 1px solid;
+    text-align: center;
+    font-size: x-large;
+    color:white;
+    background-image: url(../images/computer3.jpg);
+}
+/* .circle
+{
+    border: 1px solid black;
+    width: 45px;
+    border-radius:50%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size:large;
+} */
+table{
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-large;
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+}
+td{
+    border: 1px solid black;   
+}
+ 

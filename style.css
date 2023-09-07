@@ -1,0 +1,29 @@
+a:link{
+    color:blue  ;
+}
+a:visited{
+color: green;
+}
+a:hover{
+    color: red;
+}
+a:focus{
+    color:gold;
+}
+a:active
+{
+    color: yellow;
+}
+.para h1,p
+{
+    border: 2px solid blue;
+    border-style: double;
+    min-width:400px;
+    max-width:800px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius: 40px;
+    box-shadow:20px 10px 25px red;
+    margin:auto;
+    overflow: scroll;
+   /* border-radius: 15px;*/
+}

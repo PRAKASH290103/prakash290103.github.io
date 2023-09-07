@@ -1,0 +1,27 @@
+ th{
+    border: 1px solid red;
+    text-transform: uppercase;
+    text-align: left;
+ }
+ .amt
+ {
+    text-align: right;
+    font-style: italic;
+ }
+ table
+ {
+    width: 400px;
+
+    border:2px solid red;
+    margin: 10px auto;
+    border-radius: 10px;
+    border-collapse: collapse;
+ }
+ td{
+    border: 1px solid red;
+    
+ }
+ /*td:nth-child(odd)
+ {
+    background-color: crimson;
+ }/*

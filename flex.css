@@ -1,0 +1,63 @@
+/*.box
+{
+    width:50vw;
+    height:50vh;
+    border: 2px solid black;
+    background: linear-gradient(to top,pink,blue);
+}
+.container div
+{
+padding: 20px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.para1
+{
+   /* font-size: 1.5em;
+   background-color: red;
+   flex: 1;
+   order: 3;
+}
+.para2
+{
+    /*font-size: 2em;
+    background-color: blue;
+    flex: 2;
+    order: 1;
+}
+.para3
+{
+ background-color: green;   
+ flex: 1;
+ order: 2;
+}*/
+.container2
+{
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+
+}
+.box
+{
+    width: 150px;
+    border: 1px solid white;
+    height: 150px;
+    background-color: red;
+}
+.box1
+{
+   flex: 1 2 0px;   
+}
+ .box2 
+{
+     flex:1 2 0px
+}

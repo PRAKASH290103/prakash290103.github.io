@@ -1,0 +1,24 @@
+/* .square
+{
+    height:300px;
+    width: 300px;
+    background-color: blue;
+    transition-duration:5s;
+}
+.square:hover
+{
+    background-color: red;
+     box-shadow: 10px 5px yellow,
+                -10px -5px blue; 
+} */
+                  /* Animation */
+.box
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: circle;
+    animation-duration: 3s;
+
+}

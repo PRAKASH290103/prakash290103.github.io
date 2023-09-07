@@ -1,0 +1,40 @@
+  .box
+  {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(orange 33%,white 34% 67%,green 67% 100%);
+}
+  .p1
+  {
+    background-color: red;
+  }
+  .p2
+  {
+    background-color: blue;
+  }
+  .p3
+  {
+    background-color: green;
+  }
+  @media(min-width:700px)
+  {
+    .container p{
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+    .p3
+    {
+        background-color:yellow;
+    }
+  }
+  @media print {
+    body 
+    {
+        background-color:aqua;
+    }
+    .container p{
+        background-color: chartreuse;
+
+    }
+}

@@ -1,0 +1,33 @@
+/* body{
+    background-color: aqua;
+}
+.container
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+.para
+{
+    background-color: red;
+    color: white;
+    padding: 10px;
+} */
+.container2
+{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
