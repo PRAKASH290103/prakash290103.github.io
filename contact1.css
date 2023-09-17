@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:burlywood;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: top 1s ease-in-out;
+} 
+@keyframes top 
+{
+    0%
+    {
+        transform: translateY(-100%);
+    }
+}
+nav ol li a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+h1
+{
+    color: red;
+}
+li a:hover
+{
+    color: red;
+}
+/* ----------------------------------------- */
+.contact
+{
+    text-align: center;
+    font-size: large;
+    padding-top: 2pc;
+}
+p{
+    font-family: sans-serif;
+    font-weight: bold;
+    display:inline-flex;
+    padding-top: 2pc;
+}
+span{
+    color:darkgoldenrod;
+}
+.para2
+{
+    font-family:'Courier New', Courier;
+    font-weight: bold;
+    font-size: larger;
+}
+.logo
+{
+    text-align: center;
+    padding-top: 5pc;
+    font-weight: bolder;
+   
+}
+button:hover{
+    color: red;
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10pc;
+    font-size: x-large;
+}

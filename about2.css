@@ -1,11 +1,23 @@
       /* nav bar starting */
 nav{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display:flex;
     justify-content: space-between;
     text-decoration: none;
-    background-color: black;
+    /* background-color: black; */
     color: white;
+    animation: side 1s ease-in-out;
+}
+@keyframes side 
+{
+    0%
+    {
+        transform: translateY(-100%);
+    }
+    /* 100%
+    {
+        transform: translateX(-100);
+    } */
 }
      /* nav bar ending */
    
@@ -13,23 +25,35 @@ li{
     list-style:none;
     display: inline;
     padding: 10px;
-    font-size:x-large;
+    font-size:x-large; 
+}
+nav ol li a{
+    text-decoration: none;
 }
 h2
 {
     font-size:x-large;
+    color: red;
 }
- /* .res
+body
 {
-    background-image: url(../images/computer3.jpg);
-}  */
+    background-image: url(../images/sunrise.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: stretch;
+    
+}  
+li a:hover
+{
+    color: red;
+}
 .about1
 {
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
     font-size: x-large;
     color:white;
-    background-image: url(../images/computer3.jpg);
+    /* background-image: url(../images/computer3.jpg); */
 }
 /* .circle
 {
@@ -41,16 +65,63 @@ h2
     color: white;
     font-size:large;
 } */
-table{
-    border: 1px solid black;
+
+/* .mark
+{
     text-align: center;
+    justify-content: center;
+} */
+table{
+    border: 1px solid yellow;
+    text-align:center;
+    margin: 5px auto;
+    padding-top: 10px;
     font-size: x-large;
+    
 }
 th{
-    border: 1px solid black;
+    border: 1px solid yellow;
     text-align: center;
+    color: red;
 }
-td{
+/* td{
     border: 1px solid black;   
 }
- 
+  */
+
+  .detail
+  {
+    text-align: left;
+    font-family:fantasy;
+    margin: 10px auto;
+    padding: 10px;
+    display:flex;
+  }
+  img
+  {
+    text-align: right;
+    margin: 20px auto;
+  }
+
+  .pic
+  {
+    text-align: right;
+    margin: 10px auto;
+    width:300px;
+    border-width: 20px;
+    /* height:50px; */
+  }
+  b
+  {
+    color: green;
+  }
+  .info
+  {
+    color: red;
+  }
+.progress
+{
+    border-width: 50%;
+     padding-bottom:5px;
+}
+
